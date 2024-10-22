@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <Style id="z1">
+      <IconStyle><Icon><href>http://www.google.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href></Icon></IconStyle>
+    </Style>
+    <Placemark>
+      <name>TommyTrojan</name>
+      <styleUrl>#z1</styleUrl><Point><coordinates>-118.1703 34.0109</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>ORL</name>
+      <styleUrl>#z1</styleUrl><Point><coordinates>-118.1659 34.0120</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>MBS</name>
+      <styleUrl>#z1</styleUrl><Point><coordinates>-118.1702 34.0103</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>ShoahFoundation</name>
+      <styleUrl>#z1</styleUrl><Point><coordinates>-118.1654 34.0114</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>SchoolOfCinematicArts</name>
+      <styleUrl>#z1</styleUrl><Point><coordinates>-118.1707 34.0121</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>CARlab</name>
+      <styleUrl>#z1</styleUrl><Point><coordinates>-118.1715 34.0113</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>MarksHall</name>
+      <styleUrl>#z1</styleUrl><Point><coordinates>-118.1652 34.0106</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>ViterbiSchoolofEnginnering</name>
+      <styleUrl>#z1</styleUrl><Point><coordinates>-118.1717 34.0109</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>McCarthyQuad</name>
+      <styleUrl>#z1</styleUrl><Point><coordinates>-118.1654 34.0111</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>RoskiSchool</name>
+      <styleUrl>#z1</styleUrl><Point><coordinates>-118.1708 34.0106</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>CromwellTandF</name>
+      <styleUrl>#z1</styleUrl><Point><coordinates>-118.1710 34.0115</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>AdmissionCenter</name>
+      <styleUrl>#z1</styleUrl><Point><coordinates>-118.1705 34.0108</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Centroid</name>
+      <styleUrl>#z1</styleUrl><Point><coordinates>-118.16885 34.011112499999996</coordinates></Point>
+    </Placemark>
+    <Placemark>
+     <LineString>
+       <extrude>1</extrude>
+       <tessellate>1</tessellate>
+       <coordinates>-118.16885,34.011112499999996,0  -118.1703,34.0109,0</coordinates>
+     </LineString>
+     <Style>
+       <LineStyle>
+         <color>990000FF</color>
+         <width>20</width>
+       </LineStyle>
+     </Style>
+    </Placemark>
+    <Placemark>
+      <styleURL>#transYellowPoly</styleURL>
+      <Polygon>
+        <extrude>1</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              -118.1702,34.0103,5
+              -118.1717,34.0109,5
+              -118.1715,34.0113,5
+              -118.1707,34.0121,5
+              -118.1659,34.0120,5
+              -118.1654,34.0114,5
+              -118.1652,34.0106,5
+              -118.1702,34.0103,5
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+      <Style id="transYellowPoly">
+        <LineStyle>
+          <width>1.5</width>
+        </LineStyle>
+        <PolyStyle>
+          <color>99000000</color>
+        </PolyStyle>
+      </Style>
+    </Placemark>
+  </Document>
+</kml>
