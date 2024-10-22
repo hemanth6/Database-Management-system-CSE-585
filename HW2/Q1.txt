@@ -1,0 +1,17 @@
+For the first issue while creating the table we can add constraint to the table such that the ending time must be greater than the starting time, because when we have this constraint and the user enters an incorrect start time or end time (that is the starting is after the end time) then the constraint will not save the new data and return an error
+
+table creating code modified:
+
+CREATE TABLE ProjectRoomBookings
+(roomNum INTEGER NOT NULL,
+startTime INTEGER NOT NULL,
+endTime INTEGER NOT NULL,
+groupName CHAR(10) NOT NULL,
+PRIMARY KEY (roomNum, startTime),
+CONSTRAINT Check_time CHECK (startTime<endTime));
+
+
+but according to the above table creating query the time must entered in 24 hrs time system
+
+
+For the second issue we can use a trigger when inserting or updating the table. When a new value is inserted or any time slot is updated then the trigger will be triggered and then it will check whether a particular time slot of some room has been already occupied or not, if it is already occupied then it will show an error message and insert or update operation will not be performed.
